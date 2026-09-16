@@ -18,9 +18,8 @@ export const metadata: Metadata = {
   description: "Sites, outils et idées qui avancent. Un développeur web freelance pour les projets simples comme les défis particuliers.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default function RootLayout({children,}: 
+  Readonly<{
   children: React.ReactNode;
 }>) {
   return (
